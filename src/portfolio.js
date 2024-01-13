@@ -10,26 +10,25 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+  title2: "Sabieh",
+  logo_name: "sabieh.ahmed()",
+  nickname: "sabieh / ahmed",
+  full_name: "Sabieh Ahmed",
+  subTitle: "Lead Software Engineer, Travel Photographer",
   resumeLink:
-    "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+    "https://drive.google.com/file/d/17DFgZD_McR-DkqGGaXuuX2_4xOuEM_bB/view?usp=sharing",
+  mail: "mailto:sabieh.ahmed@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
+  github: "https://github.com/sabiehahmed10p",
+  linkedin: "https://www.linkedin.com/in/sabiehahmed/",
+  gmail: "sabieh.ahmed@gmail.com",
   gitlab: " ",
   facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  twitter: "https://twitter.com/sabiehahmed",
+  instagram: "https://www.instagram.com/sabiehahmed/",
 };
 
 const skills = {
@@ -322,30 +321,17 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dalhousie University",
-      subtitle: "Masters in Applied Computer Science",
-      logo_path: "dal.png",
-      alt_name: "DAL",
-      duration: "2022 - 2023",
-      descriptions: [
-        "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing",
-        "⚡ Learn Advanced Topics in Cloud Computing, Cloud Architecture along with Serverless Computing",
-        "⚡ Worked on projects on courses like Mobile Computing and Web Technologies.",
-      ],
-      website_link: "https://www.dal.ca/",
-    },
-    {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Virtual University",
+      subtitle: "Bachelors In Computer Science",
       logo_path: "sal.png",
-      alt_name: "SETI",
+      alt_name: "VU",
       duration: "2017 - 2021",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        "⚡ I have studied core subjects like Web Engineer, AI/ML, Computer Vision.",
         "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
       ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "https://www.vu.edu.pk/",
     },
   ],
 };
@@ -629,7 +615,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "sabieh.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -637,7 +623,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
-    link: "https://medium.com/@hrishipatel99",
+    link: "https://medium.com/@sabieh.ahmed",
     avatar_image_path: "blogs_image.svg",
   },
 };

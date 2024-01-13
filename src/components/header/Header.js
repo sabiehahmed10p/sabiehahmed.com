@@ -89,7 +89,7 @@ function Header(props) {
                 Home
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="ec"
                 to="/education"
@@ -121,7 +121,7 @@ function Header(props) {
               >
                 Projects
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 className="cr"
@@ -130,10 +130,10 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="cr"
                 target="_blank"
@@ -145,7 +145,7 @@ function Header(props) {
               >
                 Journalify
               </a>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
