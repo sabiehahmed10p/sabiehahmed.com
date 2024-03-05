@@ -1,11 +1,8 @@
-# Sabieh Ahmed Portfolio
-
-### My Personal Portfolio Website
+# Sabieh Ahmed's Portfolio
 
 # Sections
 
 - Home
-- Education and Certificates
 - Experience
 - Projects
 - Contact and Resume
@@ -22,6 +19,6 @@
 - In `src/portfolio.js` you can add your personal portfolio details.
 - In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
 
-# How to Deploy
+# Automated Deployment
 
-I have used GitHub Pages to deploy this website, just run `npm run build` and publish all the files in the `/build` folder to your repository.
+I have used GitHub Pages to deploy this website automatically, see `.github/workflows/deploy.yml`
