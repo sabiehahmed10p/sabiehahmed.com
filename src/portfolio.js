@@ -2,7 +2,7 @@
 const settings = {
   isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "",
+  googleTrackingID: "UA-104908130-1",
 };
 
 //Home Page
