@@ -1,6 +1,6 @@
 # Sabieh Ahmed Portfolio
 
-### A clean portfolio template. (Readme will be updated soon)
+### My Personal Portfolio Website
 
 # Sections
 
@@ -24,4 +24,4 @@
 
 # How to Deploy
 
-I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
+I have used GitHub Pages to deploy this website, just run `npm run build` and publish all the files in the `/build` folder to your repository.
