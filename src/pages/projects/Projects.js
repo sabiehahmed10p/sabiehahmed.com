@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -7,8 +7,18 @@ import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
+import ReactGA from "react-ga4";
 
 function Projects(props) {
+  useEffect(() => {
+    if (ReactGA.isInitialized) {
+      ReactGA.send({
+        hitType: "pageview",
+        page: "/projects",
+        title: "Projects",
+      });
+    }
+  }, []);
   const theme = props.theme;
 
   const styles = style({

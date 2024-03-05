@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
@@ -6,8 +6,18 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import ReactGA from "react-ga4";
 
 function Experience(props) {
+  useEffect(() => {
+    if (ReactGA.isInitialized) {
+      ReactGA.send({
+        hitType: "pageview",
+        page: "/experience",
+        title: "Experience",
+      });
+    }
+  }, []);
   const theme = props.theme;
   console.log(props.setTheme);
   return (

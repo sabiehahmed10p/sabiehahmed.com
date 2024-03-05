@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -7,11 +7,22 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import ReactGA from "react-ga4";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
+  useEffect(() => {
+    if (ReactGA.isInitialized) {
+      ReactGA.send({
+        hitType: "pageview",
+        page: "/contact",
+        title: "Contact",
+      });
+    }
+  }, []);
+
   const theme = props.theme;
 
   const styles = style({
