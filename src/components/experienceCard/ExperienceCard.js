@@ -1,5 +1,6 @@
 import React from "react";
 import "./ExperienceCard.css";
+import { Remark } from "react-remark";
 
 function ExperienceCard(props) {
   const experience = props.experience;
@@ -57,7 +58,7 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {experience["description"]}
+          <Remark>{experience["description"]}</Remark>
         </p>
       </div>
     </div>

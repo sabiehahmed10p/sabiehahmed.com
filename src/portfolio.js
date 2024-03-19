@@ -35,7 +35,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building webapps fronted using ReactJS and NextJs framework.",
+        "⚡ Building webapps frontend using ReactJS and NextJs framework.",
         "⚡ Backend development using NodeJS, NestJs, Laravel",
       ],
       softwareSkills: [
