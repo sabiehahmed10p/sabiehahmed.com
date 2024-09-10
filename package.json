@@ -2,7 +2,7 @@
   "private": true,
   "name": "Sabieh Ahmed Personal Portfolio",
   "version": "1.0.0",
-  "homepage": "https://sabiehahmed10p.github.io/sabiehahmed.com/",
+  "homepage": "https://sabiehahmed.com",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
