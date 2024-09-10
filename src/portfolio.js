@@ -230,7 +230,7 @@ const experience = {
           company_url: "https://spekit.com/",
           logo_path:
             "https://cdn.prod.website-files.com/652972dbf17aca5ff350c363/65312dd6672b6884ca95f186_Spekit_Logo_ForLightBackgrounds_FullColor_Digital.svg",
-          duration: "Sept 2024 - ongoing",
+          duration: "September 2024 - ongoing",
           location: "Karachi, Pakistan",
           description: "",
           color: "#ec008c",
@@ -241,7 +241,7 @@ const experience = {
           company_url: "https://10pearls.com",
           logo_path:
             "https://10pearls.com/wp-content/uploads/2020/06/10P-Logo.svg",
-          duration: "January 2022 - ",
+          duration: "January 2022 - September 2024",
           location: "Karachi, Pakistan",
           description:
             "- Worked on scalable architecture and design as well as worked on system optimizations to enhance the performance.\n" +
