@@ -12,7 +12,7 @@ const greeting = {
   logo_name: "sabieh.ahmed()",
   nickname: "sabieh / ahmed",
   full_name: "Sabieh Ahmed",
-  subTitle: "Lead Software Engineer @ 10Pearls",
+  subTitle: "Senior Software Engineer @ Spekit",
   resumeLink:
     "https://docs.google.com/document/d/e/2PACX-1vT4zIRtwotXouz-G3OffIPMekrYR3uA1WejuqdaoDTERT8GHJ_CW0fdjVKV33McSDXbukVx437xGdEe/pub",
   mail: "mailto:sabieh.ahmed@gmail.com",
@@ -225,12 +225,23 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Senior Software Engineer",
+          company: "Spekit",
+          company_url: "https://spekit.com/",
+          logo_path:
+            "https://cdn.prod.website-files.com/652972dbf17aca5ff350c363/65312dd6672b6884ca95f186_Spekit_Logo_ForLightBackgrounds_FullColor_Digital.svg",
+          duration: "Sept 2024 - ongoing",
+          location: "Karachi, Pakistan",
+          description: "",
+          color: "#ec008c",
+        },
+        {
           title: "Principal Software Engineer",
           company: "10Pearls LLC",
           company_url: "https://10pearls.com",
           logo_path:
             "https://10pearls.com/wp-content/uploads/2020/06/10P-Logo.svg",
-          duration: "January 2022 - Ongoing",
+          duration: "January 2022 - ",
           location: "Karachi, Pakistan",
           description:
             "- Worked on scalable architecture and design as well as worked on system optimizations to enhance the performance.\n" +
